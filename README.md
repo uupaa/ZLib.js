@@ -13,7 +13,7 @@ zlib implementation.
 
 ## Run on
 
-### Browser and node-weblit
+### Browser and node-webkit
 
 ```js
 <script src="lib/ZLib.js"></script>
@@ -28,8 +28,6 @@ var unziped = ZLib.inflate(ziped);
 ```js
 importScripts("lib/ZLib.js");
 
-var ziped = new Uint8Array(...);
-var unziped = ZLib.inflate(ziped);
 ```
 
 ### Node.js
@@ -37,7 +35,5 @@ var unziped = ZLib.inflate(ziped);
 ```js
 require("lib/ZLib.js");
 
-var ziped = new Uint8Array(...);
-var unziped = ZLib.inflate(ziped);
 ```
 

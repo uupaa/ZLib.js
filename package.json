@@ -1,9 +1,9 @@
 {
   "name": "uupaa.zlib.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "zlib implementation.",
   "url": "https://github.com/uupaa/ZLib.js",
-  "keywords": ["uupaa", "WebModule", "Unstable"],
+  "keywords": ["zlib", "uupaa", "WebModule"],
   "repository": {
     "type": "git",
     "url": "https://github.com/uupaa/ZLib.js.git"
@@ -20,7 +20,7 @@
     "browser": "open http://localhost:8000/ZLib.js/test/index.html",
     "sim": "node ../WebModule/run/sim.js http://localhost:8000/ZLib.js/test/index.html",
     "simx": "node ../WebModule/run/sim.js stop",
-    "hint": "jshint lib/*.js",
+    "hint": "eslint lib/*.js",
     "score": "node ../WebModule/run/score.js; open lint/plato/index.html",
     "patch": "node ../WebModule/run/patch.js",
     "setup": "node ../WebModule/run/setup.js",
@@ -47,7 +47,9 @@
       "output": "release/ZLib.nw.min.js"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "uupaa.hash.js": ""
+  },
   "devDependencies": {},
   "lib": "./lib/",
   "main": "./index.js",
