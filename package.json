@@ -1,6 +1,6 @@
 {
   "name": "uupaa.zlib.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "zlib implementation.",
   "url": "https://github.com/uupaa/ZLib.js",
   "keywords": ["zlib", "uupaa", "WebModule"],
