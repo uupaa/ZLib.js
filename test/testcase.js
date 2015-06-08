@@ -37,7 +37,7 @@ if (IN_BROWSER || IN_NW) {
 function testMessagePack_ZLib_inflate(test, pass, miss) {
 
     var source = [
-        ZLib.inflate(new Uint8Array(0), { verify: false })
+        WebModule.ZLib.inflate(new Uint8Array(0), { verify: false })
     ];
     test.done(pass());
 }
